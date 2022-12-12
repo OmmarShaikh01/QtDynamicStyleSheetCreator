@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "qt-dynamic-stylesheet-creator"
+version = "0.1.0"
+description = "Dynamic Qt Stylesheet generator using Jinja templates"
+authors = ["Ommar Shaikh <ommarshaikh20@gmail.com>"]
+readme = "README.md"
+packages = [{include = "qt_dynamic_stylesheet_creator"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+PySide6 = "^6.4.1"
+Jinja2 = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
