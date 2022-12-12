@@ -142,4 +142,5 @@ cython_debug/
 logs/
 
 qt_dynamic_stylesheet_creator/build/
-qt_dynamic_stylesheet_creator/assets/generated/
+qt_dynamic_stylesheet_creator/assets/
+.idea/
